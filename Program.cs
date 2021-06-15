@@ -8,36 +8,25 @@ namespace BakeryShoppingCart
     {
         static void Main()
         {
-            ShoppingCart myShoppingCart = new ShoppingCart();
+            myClass myVariable = new myClass();
+            myVariable.MyMethod<string>("string1", "string2");
 
-            string response = "";
+            Console.WriteLine(myVariable.MyProperty1);
+            Console.WriteLine(myVariable.MyProperty2);
 
-            while (response!="5")
-            {
-                myShoppingCart.PrintMenu();
-
-                response = myShoppingCart.CaptureResponse();
-
-                switch(response)
-                {
-                    case "1":
-                        myShoppingCart.CreateUser();
-                        break;
-                    case "2":
-                        myShoppingCart.CreateComment();
-                        break;
-                    case "3":
-                        myShoppingCart.ShowAllExistingUsers();
-                        break;
-                    case "4":
-                        myShoppingCart.ShowAllExistingCakeReviews();
-                        break;
-                    case "5":
-                        break;
-                    default:
-                        break;
-                }
-            }
         }
+    }
+
+    public class myClass
+    {
+        public string MyProperty1 { get; set; }
+        public string MyProperty2 { get; set; }
+
+        public void MyMethod<T>(T parameter1, T parameter2)
+        {
+            this.MyProperty1 = parameter1.ToString();
+            this.MyProperty2 = parameter2.ToString();
+        }
+        
     }
 }
