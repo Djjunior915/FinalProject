@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{C6168060-7791-4525-931B-75CB3368C789}|Default">
+  <MonoDevelop.Ide.ItemProperties.BakeryShoppingCart PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Comment.cs">
+    <Files>
+      <File FileName="Program.cs" Line="17" Column="41" />
+      <File FileName="Models/ShoppingCart.cs" Line="9" Column="25" />
+      <File FileName="Models/Comment.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BakeryShoppingCart" expanded="True">
+            <Node name="BakeryShoppingCart" expanded="True">
+              <Node name="DTOS" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Comment.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
